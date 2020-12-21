@@ -1,0 +1,69 @@
+/* cara mendefiniskan font family */
+@font-face{
+    font-family: "Bebas";
+    src:url("../Assets/Fonts/BebasNeue-Regular.ttf")
+}
+
+body{
+    background-image: url(../Assets/Image/OOR.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* mendefinisikan berdasarkan tag html */
+div{
+
+}
+
+h1{
+
+}
+
+p{
+
+}
+
+
+/* mendefiniskan class menggunakan titik */
+
+.header2{
+
+}
+
+.header1 #judul{
+    font-family: "Bebas";
+    font-size: 80px;
+    color: blueviolet;
+    text-align: center;
+    background-image: ;
+}
+
+/* mendefiniskan class secara spesifik, pakai class atau parent-child */
+.container header1{
+
+}
+
+/* mendefiniskan id (harus spesifik, satu per file)*/
+#judul{
+
+}
+
+/* pseudoclass, ngerubah dengan kondisi tertentu */
+.header1 #judul:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+/* flex box */
+.header1{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+}
+
+/* flex box bagi setengah */
+.header1 {
+    flex: 1;
+}
+
+.header
